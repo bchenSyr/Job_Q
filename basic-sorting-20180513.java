@@ -23,8 +23,7 @@ public class SelectionSort {
 	}
 	
 	static void selectionSort(int[] arr) {
-		print(arr);
-		
+		print(arr);		
 		int temp, index;
 		
 		for(int i = 0; i < arr.length; i++) {
@@ -42,15 +41,12 @@ public class SelectionSort {
 			temp = arr[i];
 			arr[i] = arr[index];
 			arr[index] = temp;
-		}
-		
+		}		
 		print(arr);
 	}
 	
-	static void insertionSort(int[] arr) {
-		
-		print(arr);
-		
+	static void insertionSort(int[] arr) {		
+		print(arr);		
 		for(int i = 0; i < arr.length; i++) {
 			
 			int temp = arr[i];
@@ -67,8 +63,7 @@ public class SelectionSort {
 					break;
 				}				
 			}
-		}	
-		
+		}		
 		print(arr);
 	}
 	
@@ -79,9 +74,7 @@ public class SelectionSort {
 		System.out.print("\n");
 	}
 		
-	public static void main(String[] args) {
-		
-		
+	public static void main(String[] args) {		
 		int[] arr = new int[]{2,0,1,8,0,5,13,18,27};
 		
 		bubbleSort(arr);
