@@ -1,5 +1,5 @@
 // Created Date: May 14, 2018
-// Application: practice reverse LinkedList recursively and iteratively
+// Application: practice reversing LinkedList recursively and iteratively
 
 package myMain;
 
