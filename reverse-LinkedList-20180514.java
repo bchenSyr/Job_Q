@@ -58,9 +58,10 @@ public class MainClass {
 		head.next.next.next = new ListNode(4);
 		head.next.next.next.next = new ListNode(5);
 		
-		// ListNode newhead  = RecursiveReverse(head);
+		ListNode newhead  = RecursiveReverse(head);
+		printList(newhead);
 		
-		ListNode newhead = IterativeReverse(head);
+		newhead = IterativeReverse(newhead);
 		printList(newhead);
 
 	}
