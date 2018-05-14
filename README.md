@@ -1,6 +1,6 @@
 # Job_Q
 
-Practice data structures and algorithms for job interview preparation.
+Practices of data structures, algorithms and job interview questions.
 
 ## Progress
 
