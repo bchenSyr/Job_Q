@@ -15,3 +15,13 @@ Practices of data structures, algorithms and job interview questions.
    - reverse-LinkedList-20180514.java
    - QueueByTwoStack-20180516.java
    
+
+## Future Plan
+
+### Binary Tree & Binary Search Tree
+### Heap & Graph Search Algorithms
+### String and Bit manipulation
+
+### Dynamic Programming
+
+### Object-Oriented Design
