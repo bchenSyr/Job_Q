@@ -2,9 +2,9 @@
 // Application: practice three basic sorting algorithm
 // Date: May 13, 2018
 
-package SelectionSort;
+package myMain;
 
-public class SelectionSort {
+public class BasicSorting {
 	
 	static void bubbleSort(int[] arr) {
 		print(arr);
