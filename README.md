@@ -17,12 +17,13 @@ Practices of data structures, algorithms and job interview questions.
    - QueueByTwoStack-20180516.java
    
 ## Daily Plan - May 17, 2018
- - Quick Sort
-
+ - Stack With min()
  - Middle Node Of Linked List
  - Check If Linked List Has A Cycle
  - Insert In Sorted Linked List
  - Merge Two Sorted Linked Lists
+ 
+ - Quick Sort
 
 ## Daily Plan - May 18, 2018
  - Classical Binary Search
