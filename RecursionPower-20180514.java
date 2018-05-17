@@ -3,7 +3,7 @@
 
 package myMain;
 
-public class MainClass {
+public class RecursionPower {
 
   // bad algorithm, too much iterations
   // will fail in this case: [1,2147483647] 
