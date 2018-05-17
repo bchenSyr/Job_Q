@@ -1,9 +1,20 @@
 // Created Date: May 14, 2018
-// Application: practice reversing LinkedList recursively and iteratively
+// Application: Practice reversing LinkedList
 
 package myMain;
 
-public class MainClass {
+class ListNode {
+	
+	int value;
+	ListNode next = null;
+	
+	public ListNode(int v) {
+		this.value = v;
+		this.next = null;
+	}
+}
+
+public class ReverseLinkedList {
 		
 	//Time Complexity: O(n);
 	//Space Complexity: O(1);
@@ -49,9 +60,9 @@ public class MainClass {
 		}		
 		System.out.print("\n");
 	}
-	
+		
 	public static void main(String[] args) {	
-				
+		
 		ListNode head = new ListNode(1);
 		head.next = new ListNode(2);
 		head.next.next = new ListNode(3);
@@ -64,5 +75,6 @@ public class MainClass {
 		newhead = IterativeReverse(newhead);
 		printList(newhead);
 
-	}
+	}	
 }
+
