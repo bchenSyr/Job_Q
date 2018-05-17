@@ -16,17 +16,18 @@ Practices of data structures, algorithms and job interview questions.
    - ReverseLinkedList-20180514.java
    - QueueByTwoStack-20180516.java
    
-## Daily Plan
-Quick Sort
+## Daily Plan - May 17, 2018
+ - Quick Sort
 
-Middle Node Of Linked List
-Check If Linked List Has A Cycle
-Insert In Sorted Linked List
-Merge Two Sorted Linked Lists
+ - Middle Node Of Linked List
+ - Check If Linked List Has A Cycle
+ - Insert In Sorted Linked List
+ - Merge Two Sorted Linked Lists
 
-Classical Binary Search
-Last Occurrence	
-Closest In Sorted Array	
+## Daily Plan - May 18, 2018
+ - Classical Binary Search
+ - Last Occurrence	
+ - Closest In Sorted Array	
    
 
 ## Future Plan
