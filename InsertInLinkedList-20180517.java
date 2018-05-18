@@ -20,6 +20,8 @@ class ListNode {
 
 public class LinkedList {
 	
+	//Time Complexity: O(n);
+	//Space Complexity: O(1);
 	public static ListNode myInsert(ListNode head, int value) {
 		
 		ListNode newNode = new ListNode(value);
@@ -172,29 +174,3 @@ public class LinkedList {
 		printList(newhead);
 	}	
 }
-
-/* Alt Test Case 0:
- * 
- * ListNode head = null;
- * printList(head);
- * ListNode head2 = null;
- * printList(head2);
- * 
- * ListNode newhead = merge(head, head2);
- * printList(newhead);
- * 
- * */
-
-/* Alt Test Case 1:
- * 
- * ListNode head = new ListNode(0);
- * printList(head);
- * ListNode head2 = null;
- * printList(head2);
- * 
- * ListNode newhead = merge(head, head2);
- * printList(newhead);
- * 
- * */
-
-
