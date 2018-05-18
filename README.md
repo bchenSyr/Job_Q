@@ -15,13 +15,13 @@ Practices of data structures, algorithms and job interview questions.
 ### Queque, Stack, LinkedList
    - ReverseLinkedList-20180514.java
    - QueueByTwoStack-20180516.java
-   - MergeTwoSortedLinkedList-20180517.java
+   - Merge2LinkedList-20180517.java
    - StackWithMinOp-20180517.java
+   - InsertInLinkedList-20180517.java
    
 ## Daily Plan - May 17, 2018
  - Middle Node Of Linked List
  - Check If Linked List Has A Cycle
- - Insert In Sorted Linked List
  
  - Quick Sort
 
