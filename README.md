@@ -20,11 +20,8 @@ Practices of data structures, algorithms and job interview questions.
    - InsertInLinkedList-20180517.java
    
 ### Binary Search
-   - BinartSearch-20180518: Classical Binary Search, First, Last Occurrence
-   
-## Daily Plan - May 18, 2018
- - Middle Node Of Linked List
- - Check If Linked List Has A Cycle
+   - BinartSearch-20180518.java: Classical Binary Search, First, Last Occurrence
+   - TwoPrtLinkedList-20180518.java: Find Middle Node Of Linked List; Check If Linked List Has A Cycle
 
 ## Daily Plan - May 19, 2018
 - Search In Sorted Matrix I
