@@ -3,7 +3,7 @@
 
 package myMain;
 
-public class RecursionFibAndPower {
+public class Fibonacci {
 	
 	// given K, find the Kth number in the sequence
 	public static long fibonacci(int K) {
