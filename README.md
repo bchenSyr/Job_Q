@@ -5,7 +5,6 @@ Practices of data structures, algorithms and job interview questions.
 ## Progress
 
 ### Sorting Algorithms 
-   - basic-sorting-20180512.cpp : Bubble Sort, Selection Sort, Insertion Sort
    - BasicSorting-20180513.java : Bubble Sort, Selection Sort, Insertion Sort
    - MergeSort-20180516.java : Merge Sort
    
@@ -22,6 +21,8 @@ Practices of data structures, algorithms and job interview questions.
 ### Binary Search
    - BinartSearch-20180518.java: Classical Binary Search, First, Last Occurrence
    - TwoPrtLinkedList-20180518.java: Find Middle Node Of Linked List; Check If Linked List Has A Cycle
+   
+### Binary Tree & Binary Search Tree
 
 ## Daily Plan - May 19, 2018
 - Search In Sorted Matrix I
@@ -30,10 +31,8 @@ Practices of data structures, algorithms and job interview questions.
 
 ## Future Plan
 
-### Binary Tree & Binary Search Tree
 ### Heap & Graph Search Algorithms
 ### String and Bit manipulation
-
 ### Dynamic Programming
 
 ### Object-Oriented Design
