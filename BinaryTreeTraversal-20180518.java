@@ -1,8 +1,8 @@
-//Created Date: May 18, 2018
-//Application: Practice Binary Search Tree Traversal
+// Created Date: May 18, 2018
+// Application: Practice Binary Search Tree Traversal
 
-//Updated: May 20, 2018
-//inOrderInterative() - Binary Search Tree Traversal without recursion
+// Updated: May 20, 2018
+// inOrderInterative() - Binary Search Tree Traversal without recursion
 
 package myMain;
 
@@ -21,25 +21,7 @@ class TreeNode {
 	}
 }
 
-public class BinarySearchTree {
-	
-	// Time Complexity: O(n) 
-	// Space Complexity: O(height + n) = O(n) 
-	public static void inOrderInterative(TreeNode root) {
-		if(root == null) return;
-		Deque<TreeNode> stack = new LinkedList<TreeNode>();
-		TreeNode curr = root;
-		while(curr != null || !stack.isEmpty()) {
-			if(curr != null) {
-				stack.push(curr);
-				curr = curr.left;
-			} else {
-				curr = stack.pop();
-				System.out.print(curr.value + " ");
-				curr = curr.right;
-			}			
-		}		
-	}
+public class BinaryTreeTraversal {
 	
 	// Time Complexity: O(n) 
 	// Space Complexity: O(height), worst case: O(n), balanced BST: O(logn)
@@ -58,7 +40,7 @@ public class BinarySearchTree {
 		
 		if(leftHeight == -1 || rightHeight == -1 || Math.abs(leftHeight - rightHeight) > 1) {
 			return -1;
-		}
+		} // post-order traversal
 		return Math.max(leftHeight, rightHeight) + 1;
 	}
 	
@@ -69,10 +51,30 @@ public class BinarySearchTree {
 		
 		int leftHeight = getHeight(node.left);
 		int rightHeight = getHeight(node.right);
-		return Math.max(leftHeight, rightHeight)	+ 1;	
+		return Math.max(leftHeight, rightHeight) + 1;	// post-order traversal
 	}
-
-	// Pre-Order Traversal
+	
+	// Pre-Order Traversal using iteration
+	// Time Complexity: O(n) 
+	// Space Complexity: O(height + n) = O(n)
+	public static void preOrderInterative(TreeNode root) {
+		if(root == null) return;
+		Deque<TreeNode> stack = new LinkedList<TreeNode>();
+		TreeNode curr = root;
+		while(curr != null || !stack.isEmpty()) {
+			
+			if(curr != null) {
+				System.out.print(curr.value + " ");
+				if(curr.right != null) stack.push(curr.right);
+				curr = curr.left;
+			}
+			else {
+				curr = stack.pop();
+			}			
+		}			
+	}
+		
+	// Pre-Order Traversal using recursion
 	// Time Complexity: O(n)
 	// Space Complexity: O(height), worst case: O(n), balanced BST: O(logn)
 	public static void preOrder(TreeNode node) {
@@ -82,9 +84,26 @@ public class BinarySearchTree {
 		preOrder(node.left);
 		preOrder(node.right);	
 	}
+
+	// Time Complexity: O(n) 
+	// Space Complexity: O(height + n) = O(n)	
+	public static void inOrderInterative(TreeNode root) {
+		if(root == null) return;
+		Deque<TreeNode> stack = new LinkedList<TreeNode>();
+		TreeNode curr = root;
+		while(curr != null || !stack.isEmpty()) {
+			if(curr != null) {
+				stack.push(curr);
+				curr = curr.left;
+			} else {
+				curr = stack.pop();
+				System.out.print(curr.value + " ");
+				curr = curr.right;
+			}			
+		}		
+	}	
 	
-	// In-Order Traversal
-	//In-Order Traversal
+	// In-Order Traversal using recursion
 	public static void inOrder(TreeNode node) {
 		if(node == null) return;
 			
@@ -93,9 +112,7 @@ public class BinarySearchTree {
 		inOrder(node.right);	
 	}
 	
-	// Post-Order Traversal
-	
-	//Post-Order Traversal
+	// Post-Order Traversal using recursion
 	public static void postOrder(TreeNode node) {
 		if(node == null) return;
 		
@@ -118,8 +135,12 @@ public class BinarySearchTree {
 		preOrder(root);
 		System.out.print("\n");
 		
+		preOrderInterative(root);
+		System.out.print("\n");
+		
 		inOrder(root);
-		System.out.print("\n");	
+		System.out.print("\n");
+		
 		inOrderInterative(root);
 		System.out.print("\n");	
 		
