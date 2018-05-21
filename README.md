@@ -24,7 +24,7 @@ Practices of data structures, algorithms and job interview questions.
    - BinartSearch-20180518.java: Classical Binary Search, First, Last Occurrence
   
 ### Binary Tree & Binary Search Tree
-   - BinaryTreeTraversal-20180518.java: Recursive and iterative Pre-Order, In-Order, Post-Order BST Traversal
+   - BinaryTreeTraversal-20180518.java: Recursive and iterative Pre-Order, In-Order, Post-Order Binary Tree Traversal
 
 ## Daily Plan - May 21, 2018
 - Search In Sorted Matrix I
