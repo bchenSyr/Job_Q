@@ -21,7 +21,7 @@ Practices of data structures, algorithms and job interview questions.
    - TwoPrtLinkedList-20180518.java: Find Middle Node Of Linked List; Check If Linked List Has A Cycle
    
 ### Binary Search
-   - BinartSearch-20180518.java: Classical Binary Search, First, Last Occurrence
+   - BinartSearch-20180518.java: Classical Binary Search, First, Last Occurrence
   
 ### Binary Tree & Binary Search Tree
    - BinaryTreeTraversal-20180518.java: Recursive and iterative Pre-Order, In-Order, Post-Order BST Traversal
