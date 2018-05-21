@@ -18,14 +18,15 @@ Practices of data structures, algorithms and job interview questions.
    - Merge2LinkedList-20180517.java
    - StackWithMinOp-20180517.java
    - InsertInLinkedList-20180517.java
+   - TwoPrtLinkedList-20180518.java: Find Middle Node Of Linked List; Check If Linked List Has A Cycle
    
 ### Binary Search
    - BinartSearch-20180518.java: Classical Binary Search, First, Last Occurrence
-   - TwoPrtLinkedList-20180518.java: Find Middle Node Of Linked List; Check If Linked List Has A Cycle
-   
+  
 ### Binary Tree & Binary Search Tree
+   - TraversalBST-20180518.java: Recursive and iterative Pre-Order, In-Order, Post-Order BST Traversal
 
-## Daily Plan - May 19, 2018
+## Daily Plan - May 21, 2018
 - Search In Sorted Matrix I
 - Closest In Sorted Array	
 - Quick Sort
