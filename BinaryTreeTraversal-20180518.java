@@ -2,7 +2,7 @@
 // Application: Practice Binary Search Tree Traversal
 
 // Updated: May 20, 2018
-// inOrderInterative() - Binary Search Tree Traversal without recursion
+// inOrderInterative(), preOrderInterative() - Binary Search Tree Traversal without recursion
 
 package myMain;
 
