@@ -7,6 +7,7 @@ Practices of data structures, algorithms and job interview questions.
 ### Sorting Algorithms 
    - BasicSorting-20180513.java : Bubble Sort, Selection Sort, Insertion Sort
    - MergeSort-20180516.java : Merge Sort
+   - QuickSort-20180521.java : Quick Sort
    
 ### Recursion
    - RecursionPower-20180514.java : Calculate power using recursion
@@ -29,7 +30,6 @@ Practices of data structures, algorithms and job interview questions.
 ## Daily Plan - May 21, 2018
 - Search In Sorted Matrix I
 - Closest In Sorted Array	
-- Quick Sort
 
 ## Future Plan
 
