@@ -23,37 +23,6 @@ class TreeNode {
 
 public class BinaryTreeTraversal {
 	
-	// Time Complexity: O(n) 
-	// Space Complexity: O(height), worst case: O(n), balanced BST: O(logn)
-	public static boolean checkBalanced2(TreeNode node) {
-		if(node == null) return true;	
-		if(helper(node) == -1) return false;
-		else return true;
-	}
-	
-	static int helper(TreeNode node) {
-		
-		if(node == null) return 0;
-		
-		int leftHeight = helper(node.left);
-		int rightHeight = helper(node.right);
-		
-		if(leftHeight == -1 || rightHeight == -1 || Math.abs(leftHeight - rightHeight) > 1) {
-			return -1;
-		} // post-order traversal
-		return Math.max(leftHeight, rightHeight) + 1;
-	}
-	
-	// Time Complexity: O(n)
-	// Space Complexity: O(height)
-	public static int getHeight(TreeNode node) {		
-		if(node == null) return 0;
-		
-		int leftHeight = getHeight(node.left);
-		int rightHeight = getHeight(node.right);
-		return Math.max(leftHeight, rightHeight) + 1;	// post-order traversal
-	}
-	
 	// Pre-Order Traversal using iteration
 	// Time Complexity: O(n) 
 	// Space Complexity: O(height + n) = O(n)
