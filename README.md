@@ -28,8 +28,10 @@ Practices of data structures, algorithms and job interview questions.
 ### Binary Tree & Binary Search Tree
    - BinaryTreeTraversal-20180518.java: Recursive and iterative Pre-Order, In-Order, Post-Order Binary Tree Traversal
    - CheckBalanced-20180522.java: Check If Binary Tree Is Balanced
+   - isSymmetricBT-20180523.java: Check if a given binary tree is symmetric
 
-## Daily Plan - May 21, 2018
+## Daily Plan - May 24, 2018
+- Rainbow Sort
 - Search In Sorted Matrix I
 - Closest In Sorted Array	
 
