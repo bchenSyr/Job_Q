@@ -8,6 +8,7 @@ Practices of data structures, algorithms and job interview questions.
    - BasicSorting-20180513.java : Bubble Sort, Selection Sort, Insertion Sort
    - MergeSort-20180516.java : Merge Sort
    - QuickSort-20180521.java : Quick Sort
+   - RainbowSort-20180528.java
    
 ### Recursion
    - RecursionPower-20180514.java : Calculate power using recursion
@@ -30,8 +31,7 @@ Practices of data structures, algorithms and job interview questions.
    - CheckBalanced-20180522.java: Check If Binary Tree Is Balanced
    - isSymmetricBT-20180523.java: Check if a given binary tree is symmetric
 
-## Daily Plan - May 24, 2018
-- Rainbow Sort
+## Daily Plan - May 28, 2018
 - Search In Sorted Matrix I
 - Closest In Sorted Array	
 
