@@ -9,6 +9,7 @@ Practices of data structures, algorithms and job interview questions.
    - MergeSort-20180516.java : Merge Sort
    - QuickSort-20180521.java : Quick Sort
    - RainbowSort-20180528.java
+   - moveZero-20180529.java
    
 ### Recursion
    - RecursionPower-20180514.java : Calculate power using recursion
@@ -22,6 +23,7 @@ Practices of data structures, algorithms and job interview questions.
    - InsertInLinkedList-20180517.java
    - TwoPrtLinkedList-20180518.java: Find Middle Node Of Linked List; Check If Linked List Has A Cycle
    - ReorderedLinkedList-20180522.java
+   - PartitionLinkedList-20180529.java
    
 ### Binary Search
    - BinartSearch-20180518.java: Classical Binary Search, First, Last Occurrence
@@ -31,7 +33,7 @@ Practices of data structures, algorithms and job interview questions.
    - CheckBalanced-20180522.java: Check If Binary Tree Is Balanced
    - isSymmetricBT-20180523.java: Check if a given binary tree is symmetric
 
-## Daily Plan - May 28, 2018
+## Daily Plan - May 29, 2018
 - Search In Sorted Matrix I
 - Closest In Sorted Array	
 
