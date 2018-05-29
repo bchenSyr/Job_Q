@@ -33,14 +33,8 @@ Practices of data structures, algorithms and job interview questions.
    - CheckBalanced-20180522.java: Check If Binary Tree Is Balanced
    - isSymmetricBT-20180523.java: Check if a given binary tree is symmetric
 
-## Daily Plan - May 29, 2018
-- Search In Sorted Matrix I
-- Closest In Sorted Array	
-
 ## Future Plan
 
 ### Heap & Graph Search Algorithms
 ### String and Bit manipulation
 ### Dynamic Programming
-
-### Object-Oriented Design
