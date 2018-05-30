@@ -1,6 +1,6 @@
 # Job_Q
 
-Progress of practices of data structures, algorithms and job interview questions.
+Progress of practicing data structures, algorithms and job interview questions.
 
 ## Data Structures
 
@@ -39,7 +39,7 @@ Progress of practices of data structures, algorithms and job interview questions
 ### Binary Search
    - BinartSearch-20180518.java: Classical Binary Search, First, Last Occurrence
 
-## BFS & DFS
+### BFS & DFS
    
 ### Recursion
    - RecursionPower-20180514.java : Calculate power using recursion
