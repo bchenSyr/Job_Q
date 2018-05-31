@@ -5,19 +5,20 @@ Progress of practicing data structures, algorithms and job interview questions.
 ## Data Structures
 
 ### Stacks & Queques
-   - QueueByTwoStack-20180516.java
-   - StackWithMinOp-20180517.java
+   - QueueByTwoStack-20180516.java (medium)
+   - StackWithMinOp-20180517.java (easy)
 
 ### LinkedList
-   - ReverseLinkedList-20180514.java
-   - Merge2LinkedList-20180517.java
-   - InsertInLinkedList-20180517.java
-   - TwoPrtLinkedList-20180518.java: Find Middle Node Of Linked List; Check If Linked List Has A Cycle
-   - ReorderedLinkedList-20180522.java
-   - PartitionLinkedList-20180529.java
+   - ReverseLinkedList-20180514.java (easy)
+   - Merge2LinkedList-20180517.java (easy)
+   - InsertInLinkedList-20180517.java (easy)
+   - TwoPrtLinkedList-20180518.java: Find Middle Node Of Linked List; Check If Linked List Has A Cycle (medium)
+   - ReorderedLinkedList-20180522.java (hard)
+   - PartitionLinkedList-20180529.java (medium)
+   - NumberOfNodes-20180530.java (easy)
 
 ### Binary Tree & Binary Search Tree
-   - BinaryTreeTraversal-20180518.java: Recursive and iterative Pre-Order, In-Order, Post-Order Binary Tree Traversal
+   - BinaryTreeTraversal-20180518.java: Recursive and iterative Pre-Order, In-Order, Post-Order Binary Tree Traversal (medium)
    - CheckBalanced-20180522.java: Check If Binary Tree Is Balanced
    - isSymmetricBT-20180523.java: Check if a given binary tree is symmetric
    
