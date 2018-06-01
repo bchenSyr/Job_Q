@@ -10,13 +10,31 @@
 */
 
 public class MoveZeros {
+  
+  // Time Complexity: O(n)
+  // Space Complexity: O(1)
+  public int[] moveZero2(int[] array) {    
+    if(array == null) return array;
+    int end = 0;
+    for(int i = 0; i < array.length; i++) {
+      if(array[i] != 0) {
+      	array[end++] = array[i];
+      } 
+    }    
+    // fill the rest of the array with 0s
+    for(int i = end; i < array.length; i++) {
+      array[i] = 0;
+    }
+    return array;
+  }
 
   // Time Complexity: O(n ^ 2)
   // Space Complexity: O(1)
   public int[] moveZeroes1(int[] nums) {
+    if(nums == null) return nums;
     int tail = nums.length - 1;
     int curr = 0;
-    while(curr < tail) {      
+    while(curr < tail) {   
       if(nums[curr] == 0) {
          for(int j = curr; j < tail; j++) {
         	int temp = nums[j];
@@ -29,5 +47,5 @@ public class MoveZeros {
       }
     }
     return nums;
-  }
+  }  
 }
