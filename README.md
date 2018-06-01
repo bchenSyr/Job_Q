@@ -4,6 +4,12 @@ Progress of practicing data structures, algorithms and job interview questions.
 
 ## Data Structures
 
+### String
+
+### Array
+   - MoveZero1-20180529.java
+   - MoveZero2-20180531.java
+
 ### Stacks & Queques
    - QueueByTwoStack-20180516.java (medium)
    - StackWithMinOp-20180517.java (easy)
@@ -37,7 +43,6 @@ Progress of practicing data structures, algorithms and job interview questions.
    - RainbowSort-20180528.java
    - moveZero-20180529.java
    
-     
 ### Binary Search
    - BinartSearch-20180518.java: Classical Binary Search, First, Last Occurrence
 
@@ -47,5 +52,5 @@ Progress of practicing data structures, algorithms and job interview questions.
    - RecursionPower-20180514.java : Calculate power using recursion
    - Fibonacci-20180514.java
  
-### String and Bit manipulation
+### Bit manipulation
 ### Dynamic Programming
