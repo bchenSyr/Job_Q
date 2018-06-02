@@ -1,14 +1,20 @@
-// Created Date: May 15, 2018
-// Question: Implement a queue by using two stacks. 
-// 		       The queue should provide size(), isEmpty(), offer(), poll() and peek() operations. 
-// 			     When the queue is empty, poll() and peek() should return null.
+/*
+ * Created Date: May 15,2018
+ * Question: Queue By Two Stacks
+ * Implement a queue by using two stacks. The queue should provide size(), isEmpty(), offer(), poll() and peek() operations. 
+ * When the queue is empty, poll() and peek() should return null.
+ * 
+ * Updated: June 1, 2018
+ * Time Complexity Analysis
+ */
 
-package myMain;
+package queueStackRelated;
+
 import java.util.Deque;
 import java.util.LinkedList;
 
 public class QueueByTwoStack {
-	
+		
 	Deque<Integer> inStack = new LinkedList<>();
 	Deque<Integer> outStack = new LinkedList<>();
 		
@@ -27,6 +33,24 @@ public class QueueByTwoStack {
 	public void offer(int element) {		
 		inStack.push(element);	
 	}
+	
+	// Time Complexity
+	// ## worst case, when outStack is empty, do the following:
+	// (1) pop all the elements of inStack	O(n)
+	// (2) push all the elements in outStack O(n)
+	// (3) call outStack.pop					O(1)
+	// 	thus, worst case -> O(n)
+	//
+	// ## amortized time
+	// example: assume poll 1000 times
+	//		1st call: 1000 + 1000 + 1 = 2001
+	//		2nd call: 1
+	//		3rd call: 1
+	// 		...
+	//		nth call: 1
+	//  thus, amortized time = (2001 + 999) / 1000 = O(3) = O(1)
+	
+	// Space Complexity: O(1);
 	
 	public Integer poll() {		
 		if(outStack.isEmpty()) {
@@ -79,3 +103,4 @@ public class QueueByTwoStack {
 		System.out.println("poll: " + myQ.poll());
 	}
 }
+
