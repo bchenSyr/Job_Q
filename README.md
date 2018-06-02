@@ -28,6 +28,7 @@ Progress of practicing data structures, algorithms and job interview questions.
    - BinaryTreeTraversal-20180518.java: Recursive and iterative Pre-Order, In-Order, Post-Order Binary Tree Traversal (medium)
    - CheckBalanced-20180522.java: Check If Binary Tree Is Balanced
    - isSymmetricBT-20180523.java: Check if a given binary tree is symmetric
+   - ClosestInSortedArray-20180601.java
    
 ### Hash Tables
 ### Heaps
