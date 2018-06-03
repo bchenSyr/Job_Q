@@ -44,7 +44,9 @@ Progress of practicing data structures, algorithms and job interview questions.
    - moveZero-20180529.java
    
 ### Binary Search
-   - BinartSearch-20180518.java: Classical Binary Search, First, Last Occurrence
+   - ClassicalBinarySearch-20180518.java
+   - FirstOccurBinarySearch-20180603.java
+   - LastOccurBinarySearch-20180603.java
    - ClosestInSortedArray-20180601.java
 
 ### BFS & DFS
