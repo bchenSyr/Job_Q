@@ -7,8 +7,8 @@ Progress of practicing data structures, algorithms and job interview questions.
 ### String
 
 ### Array
-   - MoveZero1-20180529.java
-   - MoveZero2-20180531.java
+   - MoveZero1-20180529.java (easy)
+   - MoveZero2-20180531.java (easy+)
 
 ### Stacks & Queques
    - QueueByTwoStack-20180516.java (medium)
@@ -26,8 +26,8 @@ Progress of practicing data structures, algorithms and job interview questions.
 
 ### Binary Tree & Binary Search Tree
    - BinaryTreeTraversal-20180518.java: Recursive and iterative Pre-Order, In-Order, Post-Order Binary Tree Traversal (medium)
-   - CheckBalanced-20180522.java: Check If Binary Tree Is Balanced
-   - isSymmetricBT-20180523.java: Check if a given binary tree is symmetric
+   - CheckBalanced-20180522.java (medium)
+   - isSymmetricBT-20180523.java (easy+)
     
 ### Hash Tables
 ### Heaps
@@ -38,10 +38,9 @@ Progress of practicing data structures, algorithms and job interview questions.
 
 ### Sorting Algorithms 
    - BasicSorting-20180513.java : Bubble Sort, Selection Sort, Insertion Sort
-   - MergeSort-20180516.java : Merge Sort
-   - QuickSort-20180521.java : Quick Sort
-   - RainbowSort-20180528.java
-   - moveZero-20180529.java
+   - MergeSort-20180516.java (medium)
+   - QuickSort-20180521.java (medium)
+   - RainbowSort-20180528.java (medium)
    
 ### Binary Search
    - ClassicalBinarySearch-20180518.java
