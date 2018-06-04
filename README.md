@@ -4,8 +4,6 @@ Progress of practicing data structures, algorithms and job interview questions.
 
 ## Data Structures
 
-### String
-
 ### Array
    - MoveZero1-20180529.java (easy)
    - MoveZero2-20180531.java (easy+)
@@ -29,10 +27,10 @@ Progress of practicing data structures, algorithms and job interview questions.
    - CheckBalanced-20180522.java (medium)
    - isSymmetricBT-20180523.java (easy+)
     
+### String
 ### Hash Tables
 ### Heaps
 ### Graphs
-### Vectors / ArrayLists
 
 ## Algorithms
 
@@ -44,8 +42,8 @@ Progress of practicing data structures, algorithms and job interview questions.
    
 ### Binary Search
    - ClassicalBinarySearch-20180518.java
-   - FirstOccurBinarySearch-20180603.java
-   - LastOccurBinarySearch-20180603.java
+   - FirstOccurBinarySearch-20180518.java
+   - LastOccurBinarySearch-20180518.java
    - ClosestInSortedArray-20180601.java
 
 ### BFS & DFS
