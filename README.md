@@ -37,14 +37,15 @@ Progress of practicing data structures, algorithms and job interview questions.
 ### Sorting Algorithms 
    - BasicSorting-20180513.java : Bubble Sort, Selection Sort, Insertion Sort
    - MergeSort-20180516.java (medium)
-   - QuickSort-20180521.java (medium)
+   - [QuickSort-20180521.java (medium)](https://github.com/bchenSyr/Job_Q/blob/master/QuickSort-20180521.java)
    - RainbowSort-20180528.java (medium)
    
 ### Binary Search
-   - ClassicalBinarySearch-20180518.java
-   - FirstOccurBinarySearch-20180518.java
-   - LastOccurBinarySearch-20180518.java
-   - ClosestInSortedArray-20180601.java
+   - ClassicalBinarySearch-20180518.java (easy)
+   - FirstOccurBinarySearch-20180518.java (medium)
+   - LastOccurBinarySearch-20180518.java (medium)
+   - ClosestInSortedArray-20180601.java (medium)
+   - KClosestInSortedArray-20180604.java (medium)
 
 ### BFS & DFS
    
