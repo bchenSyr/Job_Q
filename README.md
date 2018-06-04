@@ -45,7 +45,7 @@ Progress of practicing data structures, algorithms and job interview questions.
    - FirstOccurBinarySearch-20180518.java (medium)
    - LastOccurBinarySearch-20180518.java (medium)
    - ClosestInSortedArray-20180601.java (medium)
-   - KClosestInSortedArray-20180604.java (medium)
+   - [KClosestInSortedArray-20180604.java (medium)](https://github.com/bchenSyr/Job_Q/blob/master/KClosestInSortedArray-20180604.java)
 
 ### BFS & DFS
    
